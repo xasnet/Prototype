@@ -25,11 +25,11 @@ internal class Program
         Console.WriteLine(rocketClone_1);
         Console.WriteLine();
 
-        var spaceTransportClone_2 = (SpaceTransport)spaceTransportClone_1.MyClone();
+        SpaceTransport spaceTransportClone_2 = spaceTransportClone_1.MyClone();
         spaceTransportClone_2.Name += "_2";
-        var rocketStageClone_2 = (RocketStage)rocketStageClone_1.MyClone();
+        RocketStage rocketStageClone_2 = rocketStageClone_1.MyClone();
         rocketStageClone_2.Name += "_2";
-        var rocketClone_2 = (Rocket)rocketClone_1.MyClone();
+        Rocket rocketClone_2 = rocketClone_1.MyClone();
         rocketClone_2.Name += "_2";
 
         Console.WriteLine(spaceTransportClone_2);
